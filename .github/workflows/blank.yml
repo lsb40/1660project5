@@ -38,6 +38,4 @@ jobs:
         with:
           service_account: 'my-service-account@staticsiteproject5.iam.gserviceaccount.com'
           workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/github/providers/my-repo'
-      - uses: 'google-github-actions/auth@v2'
-        with:
-          credentials_json: '${{ secrets.google_credentials }}' 
+      
