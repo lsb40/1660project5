@@ -39,4 +39,4 @@ jobs:
         with:
           path: 'public'
           destination: 'staticsiteproject5bucket'
-          parent: false
+          parent: false 
